@@ -65,7 +65,7 @@ jobs:
           ./build.sh arm32
 
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@master
         with:
           name: aria2_woa
           path: aria2*.zip
